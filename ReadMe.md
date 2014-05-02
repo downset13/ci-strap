@@ -61,7 +61,7 @@ the prefix to something less generic if you plan on having multiple installs of 
 5. Open config.php in your favorite text-editor and update the 'base_url', 'admin_email', 'table_prefix', and 'encryption_key'
 variables. (Read the config.php comments for instructions)
 6. Open database.php in the same text-editor and update the 'hostname', 'username', 'password, and 'database'
-variables. (Red the database.php comments for instructions)
+variables. (Read the database.php comments for instructions)
 7.  Success!  If you did this correctly, navigating to your CI-Strap directory in a browser will load
 the login page.
 *Note: This is a quick install.  If you need to change any other settings, please refer to the [CodeIgniter Documentation](http://ellislab.com/codeigniter/user-guide/)*
