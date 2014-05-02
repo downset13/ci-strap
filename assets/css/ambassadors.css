@@ -1,0 +1,95 @@
+html {
+	background: url(../img/bkg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+}
+
+body {
+	background-color:transparent;
+}
+
+.primary-content {
+	background-color: #ffffff;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+
+.header-content {
+	background-color: #ffffff;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	padding-bottom: 15px;
+}
+
+.rounded-bottom {
+	border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+}
+
+.rounded-top {
+	border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+}
+
+.rounded {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.shadowed {
+	box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.alert-top {
+	position: fixed;
+    top: 0;
+	width: 100%;
+    z-index:1;
+}
+
+.top-margin-sm {
+	margin-top: 15px;
+}
+
+.top-margin-md {
+	margin-top: 30px;
+}
+
+.top-margin-lg {
+	margin-top: 45px;
+}
+
+.user-panel {
+	margin: 15px 15px 15px 15px;
+}
+
+.user-active {
+	border: 1px solid green;
+}
+
+.user-inactive {
+	border: 1px solid red;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+.jqlink {
+	cursor:pointer;
+}
+
+
+
