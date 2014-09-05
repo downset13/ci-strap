@@ -58,7 +58,7 @@ class User_model extends CI_Model {
 		if($query->num_rows() == 1) {
 			$user = $query->row();
 			if ($this->passwordhash->CheckPassword($password, $user->password)) {
-				if ($user->active) {
+				if ($user->active == 'true') {
 					$this->db->where('username', $username);
 					$this->db->update($this->usersTable, array('last_login' => date('Y-m-d H:i:s')));
 					return true;
